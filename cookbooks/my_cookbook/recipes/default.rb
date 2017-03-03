@@ -4,4 +4,6 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-sudo apt-get install curl
+package 'curl' do
+  action :upgrade
+end 
